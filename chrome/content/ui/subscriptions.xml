@@ -2,7 +2,7 @@
 
 <subscriptions>
   <subscription title="gfwList (P.R.China)"
-                url="https://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt"
-                homepage="http://autoproxy-gfwlist.googlecode.com/" />
+                url="https://raw.githubusercontent.com/Duncej/gfwlist-1/master/gfwlist.txt"
+                homepage="https://github.com/Duncej/gfwlist-1" />
 </subscriptions>
 

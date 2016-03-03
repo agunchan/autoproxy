@@ -6,12 +6,7 @@ window.onload = bindEvent = function()
   if (!pane.loaded)
     pane.addEventListener("click", bindEvent, false);
   else {
-    document.getElementById("connectionSettings").setAttribute("oncommand", "handleProxySettings()");
+    document.getElementById("connectionSettings").addEventListener("oncommand", function() { aup.openSettingsDialog(); } )
     pane.removeEventListener("click", bindEvent, false);
   }
-}
-
-function handleProxySettings()
-{
-  aup.openSettingsDialog();
 }

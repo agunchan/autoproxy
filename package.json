@@ -1,0 +1,9 @@
+{
+  "name": "autoproxy-ng",
+  "title": "autoproxy-ng",
+  "description": "GFW was yesterday!",
+  "author": "hrimfaxi(outmatch@gmail.com)",
+  "license": "GPL-2.0",
+  "version": "0.5.0",
+  "main": "components/AutoProxy.js"
+}

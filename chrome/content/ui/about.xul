@@ -47,16 +47,17 @@
 <groupbox id="mainGroup">
   <hbox>
     <label id="author" value="&author.label;"/>
-    <label id="authorName" value="WCM" onclick="aup.loadInBrowser('http://twitter.com/WCM')"/>
+    <label id="authorName" value="hrimfaxi" onclick="aup.loadInBrowser('https://github.com/hrimfaxi/autoproxy')"/>
   </hbox>
 
   <hbox>
     <label id="homepage" value="&homepage.label;"/>
-    <label id="homepageLink" value="https://autoproxy.org/" onclick="aup.loadInBrowser(this.getAttribute('value'))"/>
+    <label id="homepageLink" value="https://github.com/hrimfaxi/autoproxy" onclick="aup.loadInBrowser(this.getAttribute('value'))"/>
   </hbox>
 
   <description id="members" value="&members.label;"/>
   <hbox>
+    <label value="WCM" onclick="aup.loadInBrowser('http://twitter.com/WCM')"/>
     <label value="jimmy_xu_wrk" onclick="aup.loadInBrowser('http://twitter.com/jimmy_xu_wrk')"/>
     <label value="mengxl" onclick="aup.loadInBrowser('http://twitter.com/mengxl')"/>
     <label value="Ratoo" onclick="aup.loadInBrowser('http://twitter.com/Ratoo')"/>

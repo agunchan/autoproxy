@@ -5,8 +5,8 @@
 
   <Description about="urn:mozilla:install-manifest">
 
-    <em:id>autoproxy@autoproxy.org</em:id>
-    <em:version>0.4b2</em:version>
+    <em:id>autoproxy-ng@github.com</em:id>
+    <em:version>0.5.0</em:version>
     <em:type>2</em:type>
 
     <!-- Target Application this extension can install into,
@@ -89,23 +89,15 @@
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>AutoProxy</em:name>
+    <em:name>AutoProxy-ng</em:name>
     <em:description>GFW was yesterday!</em:description>
     <em:creator>WCM</em:creator>
-    <em:homepageURL>https://autoproxy.org/</em:homepageURL>
+    <em:homepageURL>https://github.com/hrimfaxi/autoproxy</em:homepageURL>
 
     <!-- Front End Integration Hooks (used by Extension Manager)-->
     <em:iconURL>chrome://autoproxy/skin/autoproxy.png</em:iconURL>
     <em:aboutURL>chrome://autoproxy/content/ui/about.xul</em:aboutURL>
     <em:optionsURL>chrome://autoproxy/content/ui/settings.xul</em:optionsURL>
-
-    <!-- Update
-    <em:updateURL>http://autoproxy.mozdev.org/update.rdf</em:updateURL>
-    <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDa90iwPXBxB+12fTnfdk5Wc6Th
-      tvCyjRZr558hyfHrYZalDBPp3XgaSSWKEKHRIhLg+LHN3T7wpylkXbmnua1G7swV2DhORaNu/aD1
-      6CFP3yUCNvEY61EGEzh+SntNNHfxN6+7c/WUN4Rtroa98Sk3GTw1xm2JtiihZkoERGBUAwIDAQAB"
-    </em:updateKey>
-    -->
 
   </Description>  
 </RDF>
